@@ -136,7 +136,6 @@ function CitiesProvider({ children }) {
         cities,
         isLoading,
         currentCity,
-        error,
         getCity,
         createCity,
         deleteCity,
