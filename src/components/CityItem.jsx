@@ -22,8 +22,12 @@ function CityItem({ city }) {
 
   const handleCityDelete = (e) => {
     e.preventDefault();
-    deleteCity(id);
-    console.log("delete");
+    const userConformation = window.confirm(
+      `Are you sure you want to delete ${cityName}?`
+    );
+    if (userConformation) {
+      deleteCity(id);
+    }
   };
   return (
     <li>
