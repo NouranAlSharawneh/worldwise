@@ -1,5 +1,5 @@
 import { replace, useNavigate } from "react-router-dom";
-import { useAuth } from "../contexts/fakeAuthContext";
+import { useAuth } from "../contexts/FakeAuthContext";
 import styles from "./Login.module.css";
 import { useEffect, useState } from "react";
 import Button from "../components/Button";
